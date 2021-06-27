@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import Auth from './store-auth'
-import Social from './store-social'
 import Google from './store-google'
+
 
 // import example from './module-example'
 
@@ -22,7 +22,6 @@ export default function (/* { ssrContext } */) {
     modules: {
       namespaced: true,
       Auth,
-      Social,
       Google
     },
 

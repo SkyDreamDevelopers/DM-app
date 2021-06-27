@@ -54,9 +54,6 @@ const actions = {
         commit("setUserName", user.email);
         LocalStorage.set("loggedIn", true)
         this.$router.push("/").catch(err => {})
-        dispatch('Social/readData', {}, {
-            root: true
-        })
 
       } else {
         commit("setLoggedIn", false);

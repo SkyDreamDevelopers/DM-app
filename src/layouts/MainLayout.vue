@@ -90,13 +90,13 @@ const linksData = [
     title: "Home page",
     caption: "Explore your business",
     icon: "public",
-    link: "#/home"
+    link: "home"
   },
   {
     title: "Google",
     caption: "Analytics",
     icon: "trending_up",
-    link: "#/google"
+    link: "google"
   }
 ];
 
